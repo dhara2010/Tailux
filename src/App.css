@@ -1,0 +1,45 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+@keyframes scroll {
+  0% { transform: translateY(0%); }
+  100% { transform: translateY(-50%); }
+}
+
+.animate-scroll {
+  animation: scroll 50s linear infinite;
+}
+
+@keyframes loading {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(500%); }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;  
+}
+
+.spinner {
+   width: 30px;
+  height: 30px;
+  border: 3px solid transparent;
+  border-top-color: currentColor; 
+  border-right-color: currentColor;
+  border-bottom-color: currentColor;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
