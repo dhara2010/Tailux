@@ -5,13 +5,8 @@ function Navbar() {
     const [active, setActive] = useState(null);
     return (
     <div className='m-4 flex'>
-<<<<<<< HEAD
       <div className='lg:w-[340px] mg:h-screen'>
         <ul className="lg:sticky top-12">
-=======
-      <div className='w-[340px] h-screen'>
-        <ul className="sticky top-12">
->>>>>>> bc661905c5358ba1a7cc6344fb5fd5e9f6fd1cb8
             <Link to="/" onClick={() => setActive(0)}><li onClick={() => setActive(0)} className={`sidebar-item ml-3 w-65 -mb-1 ${active === 0 ? "sidebar-item-active" : ""}`}><i class="fa-solid fa-house-chimney"></i>Dashboards</li></Link>
             <Link to="/applications" onClick={() => setActive(1)}><li onClick={() => setActive(1)} className={`sidebar-item ml-3 -mb-1 ${active === 1 ? "sidebar-item-active" : ""}`}><i class="fa-solid fa-gift"></i>Applications</li></Link>
             <Link to="/table" onClick={() => setActive(2)}><li onClick={() => setActive(2)} className={`sidebar-item ml-3 -mb-1 ${active === 2 ? "sidebar-item-active" : ""}`}><i class="fa-solid fa-bars-staggered"></i>Table</li></Link>

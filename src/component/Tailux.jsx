@@ -51,17 +51,10 @@ function Tailux() {
     ]
     return (
         <>
-<<<<<<< HEAD
             <div className='mt-30 mb-8 p-5'>
                 <header className='flex flex-col md:flex-row items-center justify-center text-[20px] text-gray-400 font-bold'><span className='text-gray-100 mr-4 text-[30px]'>Tailux?</span> All you need to build amazing web apps effortlessly.</header>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-6">
-=======
-            <div className='mt-30 mb-8'>
-                <header className='flex items-center justify-center text-[20px] text-gray-400 font-bold'><span className='text-gray-100 mr-4 text-[30px]'>Tailux?</span> All you need to build amazing web apps effortlessly.</header>
-            </div>
-            <div className="grid grid-cols-3 gap-4 px-6">
->>>>>>> bc661905c5358ba1a7cc6344fb5fd5e9f6fd1cb8
                 {values.map((value, index) => (
                     <Box
                         key={index}

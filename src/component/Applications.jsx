@@ -66,11 +66,7 @@ function Applications() {
         }
     ]
     return (
-<<<<<<< HEAD
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 -mt-9">
-=======
-        <div className="grid grid-cols-3 gap-4 -mt-9">
->>>>>>> bc661905c5358ba1a7cc6344fb5fd5e9f6fd1cb8
             {values.map((value, index) => (
                 <TmpBox
                     key={index}

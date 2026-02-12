@@ -18,11 +18,7 @@ function Toggle({ label,color }) {
 function CallSetting() {
     return (
         <div>
-<<<<<<< HEAD
             <div className="border border-gray-800 lg:w-72 rounded-lg mt-4">
-=======
-            <div className="border border-gray-800 w-72 rounded-lg mt-4">
->>>>>>> bc661905c5358ba1a7cc6344fb5fd5e9f6fd1cb8
                 <div className="p-3">
                     <h4 className="font-semibold">Call Settings</h4>
                     <ul>

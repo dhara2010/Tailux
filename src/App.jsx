@@ -9,7 +9,6 @@ import Technology from './component/Technology'
 import Templates from './component/Templates'
 import Started from './component/Started'
 import Footer from './component/Footer'
-<<<<<<< HEAD
 import { useRef } from 'react'
 function App() {
 
@@ -30,19 +29,6 @@ function App() {
     <div ref={templatesRef}>
         <Templates />
       </div>
-=======
-
-function App() {
-
-  return (
-    <>
-    <Header />
-    <Hero/>
-    <Tailux/>
-    <Theme/>
-    <Technology/>
-    <Templates/>
->>>>>>> bc661905c5358ba1a7cc6344fb5fd5e9f6fd1cb8
     <Started/>
     <Footer/>
     </>
