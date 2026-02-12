@@ -1,5 +1,5 @@
 import React from 'react'
-import Travis from './travis'
+import Travis from './Travis'
 
 function Application() {
     return (
