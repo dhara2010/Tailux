@@ -18,7 +18,11 @@ function Travis() {
     };
     return (
         <div className='mt-4'>
+<<<<<<< HEAD
             <div className="border border-gray-800 md:w-74 p-4 rounded-lg">
+=======
+            <div className="border border-gray-800 w-74 p-4 rounded-lg">
+>>>>>>> bc661905c5358ba1a7cc6344fb5fd5e9f6fd1cb8
                 <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
                         <div className="rounded-full size-10 bg-neutral-700 flex items-center justify-center">
@@ -31,7 +35,11 @@ function Travis() {
                     </div>
                     <div className='rounded-lg bg-neutral-700 p-2 hover:bg-neutral-600'><img src="./images/heart.png" alt="" className='h-5' /></div>
                 </div>
+<<<<<<< HEAD
                 <div className="relative group lg:w-72">
+=======
+                <div className="relative group w-72">
+>>>>>>> bc661905c5358ba1a7cc6344fb5fd5e9f6fd1cb8
                     <img src="./images/travis.jpg" alt="Travis Fuller" className="rounded-lg w-66 my-2" />
                     <div className="absolute inset-0 flex items-center justify-center bg-black/40 rounded-lg opacity-0 group-hover:opacity-100 transition duration-300">
                         <button className="bg-yellow-50/10 text-[14px] font-semibold px-4 py-2 rounded-lg shadow hover:bg-white/20 cursor-pointer">Place a Bid</button>

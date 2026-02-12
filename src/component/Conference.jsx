@@ -4,8 +4,13 @@ import SignIn from './SignIn'
 
 function Conference() {
     return (
+<<<<<<< HEAD
         <div className='md:ml-4 mt-4 md:mt-0'>
             <div className="border rounded-lg border-gray-800 lg:w-74 p-4">
+=======
+        <div className='ml-4'>
+            <div className="border rounded-lg border-gray-800 w-74 p-4">
+>>>>>>> bc661905c5358ba1a7cc6344fb5fd5e9f6fd1cb8
                 <div className="flex items-center text-gray-400 mb-3"><i class="fa-regular fa-calendar"></i><span className='pl-3 text-[14px]'>June 23, 2021</span></div>
                 <h3>UI/UX Design Conference</h3>
                 <div className="flex text-[12px] mt-2">

@@ -45,10 +45,17 @@ function Technology() {
         }
     ]
   return (
+<<<<<<< HEAD
     <div className='mt-23 p-5'>
             <h1 className="text-[33px] flex items-center justify-center font-semibold">Core Technologies</h1>
             <p className='flex items-center justify-center text-neutral-400'>Tailux is built with the following core technologies:</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-4 lg:px-6 mt-8">
+=======
+    <div className='mt-23'>
+            <h1 className="text-[33px] flex items-center justify-center font-semibold">Core Technologies</h1>
+            <p className='flex items-center justify-center text-neutral-400'>Tailux is built with the following core technologies:</p>
+            <div className="grid grid-cols-4 gap-4 px-6 mt-8">
+>>>>>>> bc661905c5358ba1a7cc6344fb5fd5e9f6fd1cb8
                 {values.map((value, index) => (
                     <Tbox
                         key={index}

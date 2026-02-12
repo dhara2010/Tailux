@@ -5,7 +5,11 @@ function TmpBox({link,image,title,text}) {
         <div>
             <a href={link} target="_blank" rel="noopener noreferrer">
                 <div className="grid">
+<<<<<<< HEAD
                     <div className="relative h-45 group mt-13 w-full md:w-90 lg:w-74 my-6 ">
+=======
+                    <div className="relative h-45 group mt-13 w-74 my-6 ">
+>>>>>>> bc661905c5358ba1a7cc6344fb5fd5e9f6fd1cb8
                         <img src={image} alt="" className="rounded-lg w-full h-full object-cover" />
                         <div className="absolute inset-0 rounded-lg bg-neutral-600/40 opacity-0 group-hover:opacity-100 transition duration-300"></div>
                     </div>

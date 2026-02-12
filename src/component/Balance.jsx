@@ -2,14 +2,23 @@ import React from 'react'
 
 function Balance() {
     return (
+<<<<<<< HEAD
         <div className='md:ml-4 mt-4 md:mt-0'>
             <div className="bg-indigo-500 h-69 md:w-72 rounded-lg p-4">
+=======
+        <div className='ml-4'>
+            <div className="bg-indigo-500 h-69 w-72 rounded-lg p-4">
+>>>>>>> bc661905c5358ba1a7cc6344fb5fd5e9f6fd1cb8
                 <div class="relative w-25 h-25"><svg class="w-full h-full rotate-70"><circle cx="50%" cy="50%" r="45%" stroke="white" strokeWidth="5" fill="none" class="opacity-20" /><circle cx="50%" cy="50%" r="45%" stroke="white" strokeWidth="5" fill="none" strokeLinecap="round" strokeDasharray="283" strokeDashoffset="116" /></svg><span class="absolute inset-0 flex items-center justify-center text-xl font-bold">59%</span></div>
                 <h1 className='mt-8 text-2xl font-semibold'>$31.313</h1>
                 <p className='font-semibold text-neutral-100'>Current Balance</p>
                 <button className="border my-4 p-1 w-62 rounded-full cursor-pointer"><i class="fa-regular fa-circle-down mr-2"></i>Get Statement</button>
             </div>
+<<<<<<< HEAD
             <div className="bg-neutral-800 md:w-72 mt-4 p-4 rounded-lg">
+=======
+            <div className="bg-neutral-800 w-72 mt-4 p-4 rounded-lg">
+>>>>>>> bc661905c5358ba1a7cc6344fb5fd5e9f6fd1cb8
                 <p className='text-[15px] font-medium text-indigo-400'>Pay App Wages</p>
                 <div className="flex text-[13px] mt-2">
                     <button className='text-indigo-400 bg-indigo-300/10 p-1 rounded'><i class="fa-regular fa-calendar pr-2"></i>Aug 11</button>
@@ -26,7 +35,11 @@ function Balance() {
                 <div className="p-4 rounded-lg bg-gradient-to-r from-purple-400 via-pink-500 to-pink-500">
                     <p className='font-semibold'>Banking Cards</p>
                     <div className="mt-4 flex gap-4 overflow-x-auto scrollbar-hide">
+<<<<<<< HEAD
                          <div className='rounded-lg h-30 w-full lg:w-55 bg-white/20 p-4 flex-shrink-0'>
+=======
+                         <div className='rounded-lg h-30 w-55 bg-white/20 p-4 flex-shrink-0'>
+>>>>>>> bc661905c5358ba1a7cc6344fb5fd5e9f6fd1cb8
                         <div className="flex justify-between">
                             <p class="italic text-white font-bold">VISA</p>
                             <i class="fa-solid fa-wifi rotate-90"></i>
@@ -34,7 +47,11 @@ function Balance() {
                         <p className="mt-3 font-bold text-[20px]">$1,686.66</p>
                         <p className='text-[12px] font-semibold'>**** **** **** 7946</p>
                     </div>
+<<<<<<< HEAD
                     <div className='rounded-lg h-30 w-full lg:w-55 bg-white/20 p-4 flex-shrink-0'>
+=======
+                    <div className='rounded-lg h-30 w-55 bg-white/20 p-4 flex-shrink-0'>
+>>>>>>> bc661905c5358ba1a7cc6344fb5fd5e9f6fd1cb8
                         <div className="flex justify-between">
                             <p class="italic text-white font-bold">VISA</p>
                             <i class="fa-solid fa-wifi rotate-90"></i>
