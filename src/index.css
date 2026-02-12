@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer components {
+  .sidebar-item {
+    @apply mt-4 rounded p-2 cursor-pointer flex items-center gap-2 text-[15px] text-neutral-400 hover:bg-neutral-800;
+  }
+
+  .sidebar-item-active {
+    @apply text-white bg-indigo-500 ;
+  }
+}
